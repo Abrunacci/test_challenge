@@ -51,11 +51,3 @@ def cycle_length(arr: List[int], start_index: int) -> int:
         if next_index in visited_index:
             break
     return counter if counter != 0 else -1
-
-
-print(cycle_length([2, 0, 1, 4, 3, 5], 0) == 3)
-print(cycle_length([7, 3, 5], 0) == -1)
-print(cycle_length([2, 0, 4, 2, 3, 5], 4) == 3)
-print(cycle_length([2, 6, 4, 2, 1, 5, 3], 1) == 5)
-print(cycle_length([2, 7, 4, 1, 3, 5, 2], 5) == 1)
-print(cycle_length([2, 6, 4, 2, 3, 5, 8], 6) == -1)

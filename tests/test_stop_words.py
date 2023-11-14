@@ -1,5 +1,4 @@
 from ..src.stop_words import stopWords
-import pytest
 
 
 def test_stop_word_1():

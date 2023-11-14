@@ -1,7 +1,5 @@
 from ..src.rle_decode import RLEDecoder
 
-import pytest
-
 
 def test_rle_decode_1():
     expected = "AABBBCCCC"
